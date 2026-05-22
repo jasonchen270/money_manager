@@ -1,0 +1,29 @@
+# ---- secrets / local config ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---- node ----
+node_modules/
+dist/
+build/
+.vite/
+.cache/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ---- local databases ----
+*.sqlite
+*.sqlite3
+*.db
+
+# ---- os / editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
