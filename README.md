@@ -1,9 +1,5 @@
 # Money Manager
 
-## Why This Exists
-
-Spreadsheets and banking apps give you raw transaction data, but they do not make it easy to track spending patterns over time or see net balance trends at a glance. This project is a self-hosted personal finance tracker that lets you log income and expenses, categorize them, and visualize running totals, all without handing your data to a third-party service.
-
 ## What It Does
 
 A full-stack web application where authenticated users can:
