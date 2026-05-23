@@ -15,13 +15,6 @@ A full-stack web application where authenticated users can:
 - **Backend**: Node.js, Express, Mongoose, bcrypt, jsonwebtoken, cookie-parser, cors
 - **Database**: MongoDB
 
-## How It Works
-
-1. When a user signs up, their password is hashed with bcrypt and stored in MongoDB. On login, the server creates a JWT containing the user's MongoDB `_id`, signs it, and sets it as an httpOnly cookie.
-2. Every protected request sends the cookie automatically. The `verifyUser` middleware decodes the JWT, looks up the user, and attaches `req.user` to the request before passing control to the route handler.
-3. Transactions are scoped to the authenticated user (`{ user: req.user._id }`). The frontend fetches incomes and expenses separately, merges them in the Context layer, and derives totals and sorted histories client-side.
-4. The dashboard chart iterates day-by-day across the user's transaction date range, accumulating running income, expense, and balance totals, then renders the result as a Recharts `AreaChart`.
-
 ## Prerequisites
 - Node.js
 - npm
