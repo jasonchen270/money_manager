@@ -1,26 +1,15 @@
 # Money Manager
 
-## What It Does
-
-A full-stack web application where authenticated users can:
-- Create an account and log in securely
-- Add, view, and delete income and expense transactions (each with title, amount, category, and date)
-- View a dashboard with a cumulative balance chart and the five most recent transactions
-- Browse full transaction history sorted by date
-
-![dashboard](https://github.com/jasonchen270/money_manager/blob/main/screenshots/dashboard.png?raw=true)
-
-## Built With
-- **Frontend**: React, Vite, Styled Components, Recharts, Chart.js, Axios, React Router, date-fns
-- **Backend**: Node.js, Express, Mongoose, bcrypt, jsonwebtoken, cookie-parser, cors
-- **Database**: MongoDB
+A full-stack personal finance tracker (React + Vite frontend, Node/Express + Mongoose backend, MongoDB) where authenticated users log income and expense transactions and visualize a cumulative balance chart alongside their recent and full transaction history.
 
 ## Prerequisites
+
 - Node.js 20+
 - npm 10+
 - MongoDB 6+
 
 ## Installation
+
 1. **Clone the repository**
     ```bash
     git clone https://github.com/jasonchen270/money_manager.git
@@ -49,6 +38,7 @@ A full-stack web application where authenticated users can:
     ```
 
 ## Usage
+
 1. **Start the backend server**
     ```bash
     cd backend
