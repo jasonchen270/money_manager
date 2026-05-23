@@ -16,9 +16,9 @@ A full-stack web application where authenticated users can:
 - **Database**: MongoDB
 
 ## Prerequisites
-- Node.js
-- npm
-- MongoDB
+- Node.js 20+
+- npm 10+
+- MongoDB 6+
 
 ## Installation
 1. **Clone the repository**
